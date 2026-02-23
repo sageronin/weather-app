@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-family: "Arvo", serif;
+    font-optical-sizing: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #14213d;
+}
+
+.container {
+    background-color: #c1cde7;
+    max-width: 500px;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+@media (min-width: 600px) {
+    .container{margin: 25px auto;}
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.input-container input {
+    width: 65%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    width: 25%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: #14213d;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #353f53;
+}
